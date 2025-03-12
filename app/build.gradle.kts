@@ -45,5 +45,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation("com.github.bumptech.glide:glide:4.16.0") // или Coil/Fresco
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation ("io.coil-kt:coil:2.2.2")
 }
